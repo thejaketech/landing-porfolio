@@ -1,0 +1,175 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+}
+.container{
+	width: 960px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+header{
+	margin-top: 32px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	transition: .5s linear;
+	color: #000;
+}
+h2{
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 41px;
+}
+.nav_items{
+	display: flex;
+}
+.nav_item{
+	margin-right: 150px;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.slider{
+	border: 1px solid #828282;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	max-width: 950px;
+	color: #828282;
+	margin-top: 32px;
+}	
+
+.head_title{
+	display: flex;
+	justify-content: space-between;
+}
+
+.head_name{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 58px;
+	margin-top: 40px;
+}
+.head_description{
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+margin-top: 95px;
+}
+.head_lang{
+	padding-left: 77px;
+    margin-top: 91px;
+    transform: rotate(270deg);
+    padding-top: 99px;
+    color: #828282;
+}
+
+.lang_active a{
+	color: #000;
+}
+.head_img{
+	margin-bottom: 105px;
+}
+
+.grey{
+	width: 100%;
+	background-color: #F6F6F6;
+}
+.about_title{
+	padding-top: 120px;
+}
+.about_desc{
+	width: 522px;
+	margin: auto;
+	margin-top: 18px;
+	padding-bottom: 107px;
+}
+.about_desc p{
+	margin-bottom: 55px;
+}
+
+.skills{
+	padding-top: 91px;
+	padding-bottom: 110px;
+}
+
+.skills_desc{
+	margin-top: 56px;
+}
+.programs{
+	display: flex;
+    justify-content: space-between;
+}
+.program{
+	margin-top: 84px;
+}
+.program_img{
+	margin-bottom: 24px;
+}
+.program_name{
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #828282;
+}
+.program_rating{
+	margin-top: 40px;
+}
+.portfolio{
+	padding-top: 113px;
+	padding-bottom: 96px;
+}
+.works{
+	margin-top: 47px;
+}
+.works> * + * {
+	margin-top: 99px;
+}
+.work_name{
+	margin-top: 45px;
+	text-decoration: underline;
+}
+.contacts{
+	padding-top: 114px;
+	padding-bottom: 123px;
+}
+.button{
+	background-color: #070707;
+	color: #fff;
+	padding: 10px 13px;
+	border-radius: 50px;
+	font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.contact_send{
+	margin-top: 35px;
+}
+.social{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 350px;
+	margin-top: 95px;
+}
+.social_text{
+margin-top: 45px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #828282;
+}
